@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+     <body>     
+        <center>
+            <h1>Aarsh's Sci-Tech Game</h1><br>
+            <h2>Instructions: </h2><br>
+            <h5>Press on either of the three buttons to choose the right cave, beware that if you choose the wrong cave, selenium will leak into the water</h5>
+            <br><br><br>
+        <span>
+            <img id="img1"  onmouseover="ResetCave()" src="download.png" alt="">
+            <img id="img2" onmouseover="ResetCave()" src="download.png" alt="">
+            <img id="img3" onmouseover="ResetCave()" src="download.png" alt="">
+        </span>
+        <br><br>
+        <span>
+            <button id="Mining1" onclick="Cave()">
+                Cave 1
+            </button>
+            <button id="Mining2" onclick="Cave()">
+                Cave 2
+            </button>
+            <button id="Mining3" onclick="Cave()">     
+                Cave 3
+            </button>
+        </span><br>
+        <div id="input"></div>
+    </center>
+    </body>
+</html>
